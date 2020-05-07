@@ -1,0 +1,36 @@
+{
+  "name": "ui5-middleware-proxy",
+  "version": "0.0.1",
+  "description": "extention for local server (ui5 tooling)",
+  "main": "./lib/proxy.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Neasit/ui5-middleware-proxy.git"
+  },
+  "keywords": [
+    "ui5tooling"
+  ],
+  "author": "Neasit <AndreyVDanilin@ya.ru> (https://github.com/Neasit)",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Neasit/ui5-middleware-proxy/issues"
+  },
+  "homepage": "https://github.com/Neasit/ui5-middleware-proxy#readme",
+  "dependencies": {
+    "@ui5/logger": "^1.0.2",
+    "http-proxy-middleware": "^1.0.3"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.3",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-prettier": "^2.6.0",
+    "eslint-plugin-promise": "^4.0.1",
+    "prettier": "^1.14.3"
+  }
+}
