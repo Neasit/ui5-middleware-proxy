@@ -11,7 +11,7 @@
     "url": "git+https://github.com/Neasit/ui5-middleware-proxy.git"
   },
   "keywords": [
-    "ui5tooling"
+    "ui5tooling", "sapui5"
   ],
   "author": "Neasit <AndreyVDanilin@ya.ru> (https://github.com/Neasit)",
   "license": "Apache-2.0",
