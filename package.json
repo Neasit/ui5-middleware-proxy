@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-proxy",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "extention for local server (ui5 tooling)",
   "main": "./lib/proxy.js",
   "scripts": {
@@ -11,7 +11,8 @@
     "url": "git+https://github.com/Neasit/ui5-middleware-proxy.git"
   },
   "keywords": [
-    "ui5tooling", "sapui5"
+    "ui5tooling",
+    "sapui5"
   ],
   "author": "Neasit <AndreyVDanilin@ya.ru> (https://github.com/Neasit)",
   "license": "Apache-2.0",
@@ -21,7 +22,8 @@
   "homepage": "https://github.com/Neasit/ui5-middleware-proxy#readme",
   "dependencies": {
     "@ui5/logger": "^1.0.2",
-    "http-proxy-middleware": "^1.0.3"
+    "http-proxy-middleware": "^1.0.3",
+    "dotenv": "^8.2.0"
   },
   "devDependencies": {
     "babel-eslint": "^8.2.3",

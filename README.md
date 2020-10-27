@@ -14,7 +14,7 @@
   - `changeOrigin` {boolean} - changes the origin of the host header to the target URL
   - `auth` {string} - basic authentication i.e. 'user:password' to compute an Authorization header
   - `debug` {boolean} - turn on/off additional messages
-  - `configFilePath` {string} - path to config file (all options will be loaded from file and parameters will be ignored)
+  - `client` {string} - SAP Client
 
 ## Usage
 
@@ -49,6 +49,7 @@
         changeOrigin: true
         auth: "username:password"
         debug: true
+        client: '200'
   ```
 
 
