@@ -9,12 +9,15 @@
 
 ## Configuration
 
-  - `target` {string} - url destination
-  - `secure` {boolean} - turn off/on verification of certificate and in case false - delete 'secure' tag from cookie
-  - `changeOrigin` {boolean} - changes the origin of the host header to the target URL
-  - `auth` {string} - basic authentication i.e. 'user:password' to compute an Authorization header
-  - `debug` {boolean} - turn on/off additional messages
-  - `client` {string} - SAP Client
+These parameters can be provided as a options in ui5.yaml configuration or be stored as a env. varibles (file `.env` - (EXAMPLE))
+
+  - `target` {string} - url destination (PROXY_TARGET)
+  - `secure` {boolean} - turn off/on verification of certificate and in case false - delete 'secure' tag from cookie (PROXY_SECURE)
+  - `changeOrigin` {boolean} - changes the origin of the host header to the target URL (PROXY_CHANGE_ORIGIN)
+  - `auth` {string} - basic authentication i.e. 'user:password' to compute an Authorization header (PROXY_AUTH)
+  - `langu` {string} - language will be provided as a URL parameter `sap-language` (PROXY_LANGU)
+  - `debug` {boolean} - turn on/off additional messages (NO ENV PARAMETER!)
+  - `client` {string} - SAP Client will be provided as a URL parameter `sap-client` (PROXY_CLIENT) 
 
 ## Usage
 
@@ -44,11 +47,12 @@
       afterMiddleware: compression
       mountPath: /sap
       configuration:
-        target: "https://server.com:443"
+        target: 'https://server.com:443'
         secure: false
         changeOrigin: true
         auth: "username:password"
         debug: true
+        langu: 'DE'
         client: '200'
   ```
 
