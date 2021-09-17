@@ -18,6 +18,7 @@ These parameters can be provided as a options in ui5.yaml configuration or be st
   - `langu` {string} - language will be provided as a URL parameter `sap-language` (PROXY_LANGU)
   - `debug` {boolean} - turn on/off additional messages (NO ENV PARAMETER!)
   - `client` {string} - SAP Client will be provided as a URL parameter `sap-client` (PROXY_CLIENT) 
+  - `ssl` {boolean} - pass certificate info to request (PROXY_SSL) 
 
 ## Usage
 

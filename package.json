@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-proxy",
-  "version": "0.0.11",
+  "version": "0.0.17",
   "description": "extention for local server (ui5 tooling)",
   "main": "./lib/proxy.js",
   "scripts": {
@@ -23,6 +23,7 @@
   "dependencies": {
     "@ui5/logger": "^1.0.2",
     "http-proxy-middleware": "^1.0.3",
+    "graceful-fs": "latest",
     "dotenv": "^8.2.0"
   },
   "devDependencies": {
