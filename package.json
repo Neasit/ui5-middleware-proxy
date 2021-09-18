@@ -1,6 +1,6 @@
 {
   "name": "ui5-middleware-proxy",
-  "version": "0.0.19",
+  "version": "0.0.20",
   "description": "extention for local server (ui5 tooling)",
   "main": "./lib/proxy.js",
   "scripts": {
